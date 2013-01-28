@@ -3,7 +3,7 @@ using System.Security.Principal;
 using System.Web;
 using System.Web.SessionState;
 
-namespace Highway.Configuration.Tests.ControllerFakes
+namespace Highway.Configuration.Shared.Tests.ControllerFakes
 {
 
 

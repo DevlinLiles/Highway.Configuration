@@ -4,7 +4,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.SessionState;
 
-namespace Highway.Configuration.Tests.ControllerFakes
+namespace Highway.Configuration.Shared.Tests.ControllerFakes
 {
 
     public class FakeControllerContext : ControllerContext

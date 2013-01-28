@@ -129,12 +129,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ControllerFakes\FakeControllerContext.cs" />
-    <Compile Include="ControllerFakes\FakeHttpContext.cs" />
-    <Compile Include="ControllerFakes\FakeHttpRequest.cs" />
-    <Compile Include="ControllerFakes\FakeHttpSessionState.cs" />
-    <Compile Include="ControllerFakes\FakeIdentity.cs" />
-    <Compile Include="ControllerFakes\FakePrincipal.cs" />
     <Compile Include="Controllers\HomeControllerTests.cs" />
     <Compile Include="Features\ViewingSetttings\GettingAndViewingSettings.feature.cs">
       <AutoGen>True</AutoGen>

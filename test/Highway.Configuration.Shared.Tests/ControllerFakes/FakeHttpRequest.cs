@@ -1,7 +1,7 @@
 ﻿using System.Collections.Specialized;
 using System.Web;
 
-namespace Highway.Configuration.Tests.ControllerFakes
+namespace Highway.Configuration.Shared.Tests.ControllerFakes
 {
 
     public class FakeHttpRequest : HttpRequestBase

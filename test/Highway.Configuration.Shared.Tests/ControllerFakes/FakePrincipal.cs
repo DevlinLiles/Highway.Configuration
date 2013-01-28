@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Security.Principal;
 
-namespace Highway.Configuration.Tests.ControllerFakes
+namespace Highway.Configuration.Shared.Tests.ControllerFakes
 {
 
     public class FakePrincipal : IPrincipal

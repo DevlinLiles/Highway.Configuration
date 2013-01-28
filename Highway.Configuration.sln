@@ -20,6 +20,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0B5B53
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highway.Configuration.Client.Tests", "test\Highway.Configuration.Client.Tests\Highway.Configuration.Client.Tests.csproj", "{0E07EA5E-D7EE-4305-82CE-DE7065366BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highway.Configuration.Client", "src\Highway.Configuration.Client\Highway.Configuration.Client.csproj", "{D3AF0751-6780-4C74-944C-007E46929B2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highway.Configuration.Shared.Tests", "test\Highway.Configuration.Shared.Tests\Highway.Configuration.Shared.Tests.csproj", "{6E2D80EB-11CF-47DB-8F0E-1B883CD154A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +56,18 @@ Global
 		{25076A00-5062-43A7-A3B7-C1F1441A1357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25076A00-5062-43A7-A3B7-C1F1441A1357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25076A00-5062-43A7-A3B7-C1F1441A1357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E07EA5E-D7EE-4305-82CE-DE7065366BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E07EA5E-D7EE-4305-82CE-DE7065366BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E07EA5E-D7EE-4305-82CE-DE7065366BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E07EA5E-D7EE-4305-82CE-DE7065366BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AF0751-6780-4C74-944C-007E46929B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AF0751-6780-4C74-944C-007E46929B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AF0751-6780-4C74-944C-007E46929B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AF0751-6780-4C74-944C-007E46929B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2D80EB-11CF-47DB-8F0E-1B883CD154A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2D80EB-11CF-47DB-8F0E-1B883CD154A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2D80EB-11CF-47DB-8F0E-1B883CD154A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2D80EB-11CF-47DB-8F0E-1B883CD154A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
