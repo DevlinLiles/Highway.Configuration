@@ -26,6 +26,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highway.Configuration.Clien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highway.Configuration.Shared.Tests", "test\Highway.Configuration.Shared.Tests\Highway.Configuration.Shared.Tests.csproj", "{6E2D80EB-11CF-47DB-8F0E-1B883CD154A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highway.Configuration.FeatureTests", "test\Highway.Configuration.FeatureTests\Highway.Configuration.FeatureTests.csproj", "{73311CFD-66C5-4424-85B6-E24E60BD3CE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{6E2D80EB-11CF-47DB-8F0E-1B883CD154A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E2D80EB-11CF-47DB-8F0E-1B883CD154A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E2D80EB-11CF-47DB-8F0E-1B883CD154A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73311CFD-66C5-4424-85B6-E24E60BD3CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73311CFD-66C5-4424-85B6-E24E60BD3CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73311CFD-66C5-4424-85B6-E24E60BD3CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73311CFD-66C5-4424-85B6-E24E60BD3CE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

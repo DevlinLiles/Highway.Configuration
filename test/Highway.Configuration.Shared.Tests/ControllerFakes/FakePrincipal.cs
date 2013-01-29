@@ -1,15 +1,16 @@
 ﻿using System.Linq;
 using System.Security.Principal;
+using Highway.Configuration.Core.Entities.Security;
 
 namespace Highway.Configuration.Shared.Tests.ControllerFakes
 {
 
-    public class FakePrincipal : IPrincipal
+    public class FakePrincipal : HighwayPrincipal
     {
         private readonly IIdentity _identity;
         private readonly string[] _roles;
 
-        public FakePrincipal(IIdentity identity, string[] roles)
+        public FakePrincipal(IIdentity identity, string[] roles) : base(identity, roles)
         {
             _identity = identity;
             _roles = roles;

@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Security.Principal;
+using Highway.Configuration.Core.Entities.Security;
 
 namespace Highway.Configuration.Shared.Tests.ControllerFakes
 {
 
 
-    public class FakeIdentity : IIdentity
+    public class FakeIdentity : HighwayIdentity
     {
         private readonly string _name;
 
-        public FakeIdentity(string userName)
+        public FakeIdentity(string userName) : base(userName)
         {
             _name = userName;
 

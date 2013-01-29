@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Security.Principal;
 using Highway.Configuration.Core.Entities.Security;
 using Highway.Configuration.Core.Interfaces;
 
@@ -7,9 +8,9 @@ namespace Highway.Configuration.Infrastructure.Security
 {
     public class PrincipalService : IPrincipalService
     {
-        public HighwayPrincipal GetCurrentPrincipal()
+        public IPrincipal GetCurrentPrincipal()
         {
-            return System.Threading.Thread.CurrentPrincipal as HighwayPrincipal;
+            return System.Threading.Thread.CurrentPrincipal as IPrincipal;
         }
 
         public bool SecurityCheck(string role)
@@ -24,7 +25,7 @@ namespace Highway.Configuration.Infrastructure.Security
         public string GetCurrentUserName()
         {
             var principal = GetCurrentPrincipal();
-            return ((HighwayIdentity)principal.Identity).Username;
+            return ((HighwayIdentity)principal.Identity).Name;
         }
     }
 }
