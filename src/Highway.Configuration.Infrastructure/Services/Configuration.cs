@@ -1,9 +1,11 @@
 ﻿using System;
+using System.ServiceModel;
 using Highway.Configuration.Core.Entities;
 using Highway.Configuration.Core.Interfaces;
 
 namespace Highway.Configuration.Infrastructure.Services
 {
+    
     public class Configuration : IConfiguration
     {
         public Application GetApplication(Guid applicationId)

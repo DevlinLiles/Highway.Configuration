@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Highway.Configuration.Web.Web
+namespace Highway.Configuration.Web
 {
     public class BundleConfig
     {

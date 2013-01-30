@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace Highway.Configuration.Web.Web
+namespace Highway.Configuration.Web
 {
     public static class WebApiConfig
     {
